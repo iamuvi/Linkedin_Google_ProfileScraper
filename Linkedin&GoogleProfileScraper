@@ -73,7 +73,7 @@ username = driver.find_element_by_id('session_key')
 
 # send_keys() to simulate key strokes
 username.send_keys(parameters.linkedin_username)
-sleep(0.5)
+sleep(5)
 
 # locate password form by_class_name
 password = driver.find_element_by_id('session_password')
@@ -87,7 +87,7 @@ log_in_button = driver.find_element_by_class_name('sign-in-form__submit-button')
 
 # .click() to mimic button click
 log_in_button.click()
-sleep(0.5)
+sleep(5)
 
 
 # driver.get method() will navigate to a page given by the URL address
